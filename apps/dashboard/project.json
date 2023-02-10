@@ -6,13 +6,13 @@
   "prefix": "mfe-netlify",
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:browser",
+      "executor": "@nrwl/angular:webpack-browser",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/dashboard",
         "index": "apps/dashboard/src/index.html",
         "main": "apps/dashboard/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": "apps/dashboard/src/polyfills.ts",
         "tsConfig": "apps/dashboard/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
