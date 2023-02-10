@@ -2,7 +2,8 @@
   "name": "mfe-netlify",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
